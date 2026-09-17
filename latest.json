@@ -1,0 +1,10 @@
+{
+  "versionCode": 10,
+  "versionName": "1.4.0",
+  "apkUrl": "https://github.com/bartolije/celeste-releases/releases/download/v1.4.0/Celeste-1.4.0.apk",
+  "sha256": "6dd2bb8f4dcebc0aade801de6f0eddd66b49c3cdc231143a3fe591305b5cdc82",
+  "sizeBytes": 3078491,
+  "minSdk": 26,
+  "publishedAt": "2026-09-17",
+  "notes": "Le jeu de piste ne donne plus la réponse, la notification du soir ne se décoche plus toute seule, la luminosité se règle dans l'application, les 88 fiches sont relues, et Céleste sait désormais se mettre à jour."
+}

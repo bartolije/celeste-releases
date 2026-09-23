@@ -1,10 +1,10 @@
 {
-  "versionCode": 10,
-  "versionName": "1.4.0",
-  "apkUrl": "https://github.com/bartolije/celeste-releases/releases/download/v1.4.0/Celeste-1.4.0.apk",
-  "sha256": "6dd2bb8f4dcebc0aade801de6f0eddd66b49c3cdc231143a3fe591305b5cdc82",
-  "sizeBytes": 3078491,
+  "versionCode": 11,
+  "versionName": "1.4.1",
+  "apkUrl": "https://github.com/bartolije/celeste-releases/releases/download/v1.4.1/Celeste-1.4.1.apk",
+  "sha256": "91be77e94fd0285f957d920a86912b34b528a2f23ec806cf3ac736a04912743b",
+  "sizeBytes": 3091563,
   "minSdk": 26,
-  "publishedAt": "2026-09-17",
-  "notes": "Le jeu de piste ne donne plus la réponse, la notification du soir ne se décoche plus toute seule, la luminosité se règle dans l'application, les 88 fiches sont relues, et Céleste sait désormais se mettre à jour."
+  "publishedAt": "2026-09-23",
+  "notes": "Correctifs : Céleste ne plante plus en cherchant un objet de Messier, les touchers sur le ciel ne se perdent plus, les textes ne collent plus leurs mots, le nord est juste même avant d'avoir calibré la boussole, et le jeu de piste ne reste plus figé."
 }

@@ -1,10 +1,10 @@
 {
-  "versionCode": 12,
-  "versionName": "1.4.2",
-  "apkUrl": "https://github.com/bartolije/celeste-releases/releases/download/v1.4.2/Celeste-1.4.2.apk",
-  "sha256": "bbb7a0d889eb11f7ff63fb5ffee634cbd603a99e358df9292fb217e83fd61518",
-  "sizeBytes": 3091563,
+  "versionCode": 13,
+  "versionName": "1.4.3",
+  "apkUrl": "https://github.com/bartolije/celeste-releases/releases/download/v1.4.3/Celeste-1.4.3.apk",
+  "sha256": "10307f2872b431d6828395af7097abe2839bdb712c5d48aa64f6a13b176ff235",
+  "sizeBytes": 3091619,
   "minSdk": 26,
-  "publishedAt": "2026-09-23",
-  "notes": "Céleste cherche désormais sa mise à jour à chaque ouverture, et redemande l'autorisation des notifications quand l'interrupteur du soir est allumé mais qu'Android la refuse."
+  "publishedAt": "2026-09-29",
+  "notes": "Céleste ne se ferme plus quand un capteur envoie une mesure vide, la notification du soir ramène l'application au lieu d'en ouvrir une seconde, le record du jeu de piste ne compte que les manches de cinq cibles, et le journal technique n'écrit plus la position qu'à une dizaine de kilomètres près."
 }

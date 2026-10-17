@@ -1,10 +1,10 @@
 {
-  "versionCode": 13,
-  "versionName": "1.4.3",
-  "apkUrl": "https://github.com/bartolije/celeste-releases/releases/download/v1.4.3/Celeste-1.4.3.apk",
-  "sha256": "10307f2872b431d6828395af7097abe2839bdb712c5d48aa64f6a13b176ff235",
-  "sizeBytes": 3091619,
+  "versionCode": 14,
+  "versionName": "1.5.0",
+  "apkUrl": "https://github.com/bartolije/celeste-releases/releases/download/v1.5.0/Celeste-1.5.0.apk",
+  "sha256": "e6ed81bf0d58a8f8284c28e77c3336a55e77bee5588dcc5e07c8e0071448e244",
+  "sizeBytes": 3108715,
   "minSdk": 26,
-  "publishedAt": "2026-09-29",
-  "notes": "Céleste ne se ferme plus quand un capteur envoie une mesure vide, la notification du soir ramène l'application au lieu d'en ouvrir une seconde, le record du jeu de piste ne compte que les manches de cinq cibles, et le journal technique n'écrit plus la position qu'à une dizaine de kilomètres près."
+  "publishedAt": "2026-10-17",
+  "notes": "La notification du soir reste à 18 h après le passage à l'heure d'hiver, le jeu de piste sans guide ne donne plus d'indice, l'accueil se lit même avec une très grande police, et le ciel garde la dernière position connue quand la localisation manque."
 }

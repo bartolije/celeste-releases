@@ -1,10 +1,10 @@
 {
-  "versionCode": 14,
-  "versionName": "1.5.0",
-  "apkUrl": "https://github.com/bartolije/celeste-releases/releases/download/v1.5.0/Celeste-1.5.0.apk",
-  "sha256": "e6ed81bf0d58a8f8284c28e77c3336a55e77bee5588dcc5e07c8e0071448e244",
-  "sizeBytes": 3108715,
+  "versionCode": 15,
+  "versionName": "1.6.0",
+  "apkUrl": "https://github.com/bartolije/celeste-releases/releases/download/v1.6.0/Celeste-1.6.0.apk",
+  "sha256": "3937ed3437b0e7726d918779e66125aa322d005d65a000502af444e5445f9fe0",
+  "sizeBytes": 3129154,
   "minSdk": 26,
   "publishedAt": "2026-10-17",
-  "notes": "La notification du soir reste à 18 h après le passage à l'heure d'hiver, le jeu de piste sans guide ne donne plus d'indice, l'accueil se lit même avec une très grande police, et le ciel garde la dernière position connue quand la localisation manque."
+  "notes": "Céleste vérifie la signature de chaque mise à jour avant de l'installer, trouve et guide vers Jupiter ou la Lune, juge le jeu de piste sur ce qui est vraiment à l'écran, propose Annuler dans le journal, et garde son mode nuit tout en rouge."
 }

@@ -1,10 +1,10 @@
 {
-  "versionCode": 15,
-  "versionName": "1.6.0",
-  "apkUrl": "https://github.com/bartolije/celeste-releases/releases/download/v1.6.0/Celeste-1.6.0.apk",
-  "sha256": "3937ed3437b0e7726d918779e66125aa322d005d65a000502af444e5445f9fe0",
+  "versionCode": 16,
+  "versionName": "1.7.0",
+  "apkUrl": "https://github.com/bartolije/celeste-releases/releases/download/v1.7.0/Celeste-1.7.0.apk",
+  "sha256": "d5277cc1a71c0a1686d87102f627d974eae91c0a9cd68ae5a08243a5b450f70c",
   "sizeBytes": 3129154,
   "minSdk": 26,
-  "publishedAt": "2026-10-17",
-  "notes": "Céleste vérifie la signature de chaque mise à jour avant de l'installer, trouve et guide vers Jupiter ou la Lune, juge le jeu de piste sur ce qui est vraiment à l'écran, propose Annuler dans le journal, et garde son mode nuit tout en rouge."
+  "publishedAt": "2026-10-25",
+  "notes": "Une petite attention à l'ouverture, dans la notification du soir et à la fin d'une manche du jeu de piste."
 }

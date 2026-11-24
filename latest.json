@@ -1,10 +1,10 @@
 {
-  "versionCode": 16,
-  "versionName": "1.7.0",
-  "apkUrl": "https://github.com/bartolije/celeste-releases/releases/download/v1.7.0/Celeste-1.7.0.apk",
-  "sha256": "d5277cc1a71c0a1686d87102f627d974eae91c0a9cd68ae5a08243a5b450f70c",
-  "sizeBytes": 3129154,
+  "versionCode": 19,
+  "versionName": "1.9.0",
+  "apkUrl": "https://github.com/bartolije/celeste-releases/releases/download/v1.9.0/Celeste-1.9.0.apk",
+  "sha256": "50c8af5ac7031fc84955041ddfdc0fd7fedda661910a018316ef0ac642a6616f",
+  "sizeBytes": 3145538,
   "minSdk": 26,
-  "publishedAt": "2026-10-25",
-  "notes": "Une petite attention à l'ouverture, dans la notification du soir et à la fin d'une manche du jeu de piste."
+  "publishedAt": "2026-11-24",
+  "notes": "Orientation plus juste : gyroscope et boussole mieux accordés, tracés coupés au bord de l'écran au lieu de disparaître, et une boussole troublée par du métal ne réclame plus d'être recalibrée."
 }

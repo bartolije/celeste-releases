@@ -9,7 +9,10 @@ publiées** et le fichier que l'application lit pour savoir si elle est à jour.
 
 ## Installer
 
-1. Télécharger le dernier `Celeste-*.apk` dans [Releases](../../releases/latest).
+Page de téléchargement, à ouvrir sur le téléphone : **https://bartolije.github.io/celeste-releases/**
+(QR code imprimable : [`qr-celeste.png`](qr-celeste.png)).
+
+1. Télécharger le dernier `Celeste-*.apk`, depuis la page ou dans [Releases](../../releases/latest).
 2. L'ouvrir sur le téléphone et autoriser l'installation depuis cette source si Android le demande.
 3. Android 8 (API 26) ou plus récent.
 
@@ -19,8 +22,9 @@ obligerait à désinstaller d'abord.
 
 ## Se mettre à jour
 
-À partir de la version 1.4.0, l'application regarde d'elle-même, au plus une fois par jour, s'il
-existe une version plus récente, et la propose. La recherche se coupe dans Réglages ; le bouton
+L'application regarde d'elle-même, à l'ouverture et au plus toutes les dix minutes, s'il existe une
+version plus récente, et la propose (versions 1.4.0 à 1.7.0, puis 1.9.0 et suivantes ; les 1.8.x,
+préparées pour Google Play, ne le font pas). La recherche se coupe dans Réglages ; le bouton
 « Chercher une mise à jour » d'À propos reste disponible. Rien n'est envoyé : la requête demande le
 fichier `latest.json`, et c'est tout.
 

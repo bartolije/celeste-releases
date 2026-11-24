@@ -4,16 +4,20 @@ title: Céleste — politique de confidentialité
 
 # Céleste — politique de confidentialité
 
-*En vigueur le 10 novembre 2026. S'applique à Céleste (`fr.jbartoli.celeste`) à partir de la
-version 1.8.0, distribuée par Google Play.*
+*En vigueur le 24 novembre 2026. S'applique à Céleste (`fr.jbartoli.celeste`) : la version
+téléchargée sur ce site à partir de la 1.9.0, et la version distribuée par Google Play à partir de la
+1.8.0.*
 
 Céleste est éditée par Jérémie Bartoli, développeur indépendant.
 
 ## En bref
 
-Céleste ne collecte, ne transmet et ne vend aucune donnée. L'application n'a pas la permission
-d'accéder à internet : elle ne peut rien envoyer, ni à l'éditeur ni à personne. Il n'y a ni compte,
-ni publicité, ni mesure d'audience, ni bibliothèque tierce de suivi.
+Céleste ne collecte, ne transmet et ne vend aucune donnée. Il n'y a ni compte, ni publicité, ni
+mesure d'audience, ni bibliothèque tierce de suivi.
+
+La version de Google Play n'a pas la permission d'accéder à internet. Celle de ce site ne s'en sert
+que pour une chose : chercher ses propres mises à jour (voir plus bas). Elle n'envoie rien, ni à
+l'éditeur ni à personne.
 
 ## Ce que l'application utilise, et pourquoi
 
@@ -23,6 +27,8 @@ ni publicité, ni mesure d'audience, ni bibliothèque tierce de suivi.
 | Caméra | Afficher l'image de la caméra derrière les étoiles, pour se repérer | Ni enregistrée, ni transmise |
 | Notifications | Le rappel du soir, facultatif et désactivé par défaut | — |
 | Capteurs d'orientation | Savoir où pointe le téléphone | Utilisés sur le moment, rien n'est conservé |
+| Internet *(version de ce site)* | Demander à GitHub s'il existe une version plus récente, à l'ouverture et au plus toutes les dix minutes, puis télécharger celle que vous acceptez | Rien n'est envoyé. GitHub, qui héberge les versions, voit ce que voit tout site web : l'adresse IP, le modèle du téléphone, l'heure. Se coupe dans Réglages (« Chercher les mises à jour ») : l'application est alors entièrement hors ligne |
+| Installation d'applications *(version de ce site)* | Installer la mise à jour que vous avez acceptée, par l'installateur d'Android | Une mise à jour qui ne porte pas la signature de l'éditeur est refusée |
 
 Chaque permission peut être refusée : l'application reste utilisable. Sans la position, elle montre
 le ciel de Paris et le signale.

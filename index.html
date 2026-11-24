@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Céleste — télécharger l'application</title>
+<meta name="description" content="Céleste : levez le téléphone vers le ciel, les constellations se dessinent sur la caméra. Application Android, gratuite, sans compte ni publicité.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/png" href="icone.png">
+<style>
+  :root {
+    --fond: #000;
+    --encre: #F5F1E8;
+    --encre-douce: #D8D2C4;
+    --discret: #8C877D;
+    --trait: #2A2620;
+    --or: #F0C95E;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--fond); }
+  body {
+    margin: 0;
+    background: var(--fond);
+    color: var(--encre-douce);
+    font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 34rem; margin: 0 auto; padding: 3rem 1rem 2rem; }
+  h1, h2 { font-family: ui-serif, Georgia, "Times New Roman", serif; font-weight: 400; color: var(--encre); }
+  h1 { font-size: 2.6rem; letter-spacing: .04em; margin: 1rem 0 .25rem; }
+  h2 { font-size: 1.35rem; margin: 2.75rem 0 .75rem; }
+  a { color: var(--encre); }
+  a:focus-visible, .telecharger:focus-visible { outline: 2px solid var(--or); outline-offset: 3px; }
+  header { text-align: center; }
+  header img { width: 88px; height: 88px; border-radius: 22px; }
+  .accroche { margin: 0 auto; max-width: 26rem; color: var(--encre-douce); }
+  .telecharger {
+    display: block; margin: 2rem auto .6rem; max-width: 20rem; min-height: 3.25rem;
+    padding: .85rem 1.5rem; border-radius: 999px; text-align: center; text-decoration: none;
+    background: var(--or); color: #000; font-weight: 600; font-size: 1.1rem;
+  }
+  .version { text-align: center; color: var(--discret); font-size: .9rem; margin: 0; }
+  ol { padding-left: 1.4rem; margin: 0; }
+  li { margin-bottom: .9rem; }
+  li::marker { color: var(--or); font-family: ui-serif, Georgia, serif; }
+  strong { color: var(--encre); font-weight: 600; }
+  .note { border-left: 2px solid var(--trait); padding-left: 1rem; color: var(--discret); }
+  figure { margin: 2.75rem auto 0; max-width: 17rem; }
+  figure img { display: block; width: 100%; height: auto; border-radius: 18px; border: 1px solid var(--trait); }
+  figcaption { text-align: center; color: var(--discret); font-size: .85rem; margin-top: .6rem; }
+  dl { margin: 0; }
+  dt { color: var(--encre); font-family: ui-serif, Georgia, serif; font-size: 1.05rem; margin-top: 1rem; }
+  dd { margin: .15rem 0 0; }
+  .qr { display: none; text-align: center; margin-top: 2.75rem; color: var(--discret); font-size: .9rem; }
+  .qr img { width: 160px; height: 160px; border-radius: 8px; display: block; margin: 0 auto .6rem; }
+  /* Le QR code ne sert qu'à qui lit la page sur un ordinateur. */
+  @media (hover: hover) and (pointer: fine) and (min-width: 48rem) { .qr { display: block; } }
+  footer {
+    max-width: 34rem; margin: 3rem auto 0; padding: 1.5rem 1rem 3rem;
+    border-top: 1px solid var(--trait); color: var(--discret); font-size: .85rem;
+  }
+  footer a { color: var(--encre-douce); }
+  footer p { margin: 0 0 .5rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icone.png" alt="" width="88" height="88">
+    <h1>Céleste</h1>
+    <p class="accroche">Levez le téléphone vers le ciel : les constellations, les planètes et la Lune
+      se dessinent par-dessus la caméra, à leur place réelle.</p>
+    <!-- Sans JavaScript, le lien mène à la dernière release ; le script le remplace par l'APK lui-même. -->
+    <a class="telecharger" id="telecharger" href="https://github.com/bartolije/celeste-releases/releases/latest">Télécharger Céleste</a>
+    <p class="version" id="version">Pour Android 8 ou plus récent</p>
+  </header>
+
+  <div class="qr">
+    <img src="qr.svg" alt="QR code de cette page">
+    Sur un ordinateur ? Scannez ce code avec le téléphone Android.
+  </div>
+
+  <h2>Installer</h2>
+  <ol>
+    <li>Touchez <strong>Télécharger Céleste</strong>. Si le navigateur prévient que ce type de fichier
+      peut être nuisible, choisissez <strong>Télécharger quand même</strong> : Céleste n'est pas dans
+      le Play Store, d'où l'avertissement.</li>
+    <li>Ouvrez le fichier téléchargé. La première fois, Android demande d'autoriser l'installation
+      depuis le navigateur : <strong>Paramètres</strong>, activez l'autorisation, puis revenez.</li>
+    <li>Touchez <strong>Installer</strong>. Google Play Protect peut proposer d'analyser
+      l'application : acceptez, cela prend quelques secondes.</li>
+  </ol>
+  <p class="note">Ensuite, Céleste se tient à jour d'elle-même : quand une nouvelle version paraît,
+    elle la propose, vérifie qu'elle vient bien de son auteur, et rien ne s'installe sans votre
+    accord.</p>
+
+  <figure>
+    <img src="ciel.jpg" alt="Le ciel d'hiver dans Céleste : Orion, le Taureau, les Pléiades et Sirius, tracés et nommés" width="540" height="960" loading="lazy">
+    <figcaption>Orion et le Taureau, un soir d'hiver.</figcaption>
+  </figure>
+
+  <h2>Ce qu'on y fait</h2>
+  <dl>
+    <dt>Identifier</dt>
+    <dd>Visez une étoile : Céleste dit ce que vous regardez. Les 88 constellations, les planètes,
+      le Soleil, la Lune et les étoiles filantes.</dd>
+    <dt>Apprendre</dt>
+    <dd>Touchez une constellation pour sa fiche : mythologie, étoiles principales, saison
+      d'observation. Les 110 objets de Messier ont aussi la leur.</dd>
+    <dt>Retrouver</dt>
+    <dd>Cherchez « Cassiopée » ou « M31 » : une flèche guide le téléphone jusqu'à la cible.</dd>
+    <dt>Jouer</dt>
+    <dd>Le jeu de piste donne une constellation à trouver dans le vrai ciel.</dd>
+  </dl>
+</main>
+
+<footer>
+  <p>Gratuite, sans compte ni publicité. Les calculs se font sur le téléphone ; la seule sortie
+    réseau est la recherche de mise à jour, qui se coupe dans les réglages.
+    <a href="confidentialite.html">Confidentialité</a> ·
+    <a href="https://github.com/bartolije/celeste-releases/releases">Toutes les versions</a></p>
+  <p>Étoiles : <a href="https://github.com/astronexus/HYG-Database">HYG Database</a> (CC BY-SA 4.0).
+    Tracés : <a href="https://github.com/ofrohn/d3-celestial">d3-celestial</a> (BSD-3-Clause).</p>
+</footer>
+
+<script>
+  // latest.json est le manifeste que lit l'application : la page propose donc toujours la même version qu'elle.
+  fetch("latest.json", { cache: "no-cache" })
+    .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+    .then(function (m) {
+      if (!/^https:\/\/github\.com\/bartolije\/celeste-releases\/releases\/download\//.test(m.apkUrl)) return;
+      document.getElementById("telecharger").href = m.apkUrl;
+      var mo = (m.sizeBytes / 1e6).toFixed(1).replace(".", ",");
+      document.getElementById("version").textContent =
+        "Version " + m.versionName + " · " + mo + " Mo · Android 8 ou plus récent";
+    })
+    .catch(function () { /* le lien vers la dernière release reste valable */ });
+</script>
+</body>
+</html>
